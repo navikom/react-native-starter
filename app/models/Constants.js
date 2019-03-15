@@ -1,0 +1,22 @@
+//**********SCREENS*************
+export const SUPPORT_SCREEN = 'Support';
+export const LANDING_SCREEN = 'Landing';
+export const ADDRESSES_SCREEN = 'Addresses';
+export const MAP_ADDRESS_SCREEN = 'MapAddress';
+export const MAP_FORM_ADDRESS_SCREEN = 'MapFormAddress';
+export const MAP_SEARCH_STARTER_SCREEN = 'MapSearchStarter';
+export const MAP_SEARCH_ADDRESS_SCREEN = 'MapSearchAddress';
+export const LOGIN_SCREEN = 'Login';
+export const SIGN_UP_SCREEN = 'SignUp';
+export const PASSWORD_SCREEN = 'Password';
+export const SEARCH_SCREEN = 'Search';
+export const CHAT_SCREEN = 'Chat';
+export const TERMS_SCREEN = 'Terms';
+export const PROFILE_SCREEN = 'Profile';
+export const PROFILE_SETTINGS_SCREEN = 'ProfileSettings';
+export const LOADER_SCREEN = 'Loader';
+export const ADD_CHAT_SCREEN = 'AddChat';
+export const FEEDBACK_SCREEN = 'Feedback';
+export const THANK_YOU_SCREEN = 'ThankYou';
+export const FAQ_SCREEN = 'FAQ';
+export const MAP_DELIVERY_TIME_SCREEN = 'MapDeliveryTime';
