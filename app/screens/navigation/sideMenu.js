@@ -31,6 +31,7 @@ export class SideMenu extends React.Component {
     if ([LANDING_SCREEN].includes(route.id)) {
       let toScreen = StackActions.reset({
         index: 0,
+        key: route.id,
         actions: [
           NavigationActions.navigate({
             routeName: route.id

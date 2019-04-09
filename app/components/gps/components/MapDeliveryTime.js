@@ -37,6 +37,7 @@ const UserMarker = observer(props => (
     const navigate = () => {
       let toScreen = StackActions.reset({
         index: 0,
+        key: LOADER_SCREEN,
         actions: [NavigationActions.navigate({routeName: LOADER_SCREEN})]
       });
       navigation.dispatch(toScreen);
@@ -67,7 +68,6 @@ const UserMarker = observer(props => (
   render() {
     const coordinate = Address;
     const userLocation = {latitude: coordinate.latitude, longitude: coordinate.longitude};
-    console.log(userLocation);
     return (
       <View style={ styles.container }>
         <MapView

@@ -294,7 +294,6 @@ const HelpmeApp = createAppContainer(Helpme);
   };
 
   render() {
-    console.log(333, Drawer.lockMode)
     return (
       <SafeAreaView style={ styles.safeArea }>
         <StatusBar backgroundColor='white'/>

@@ -16,6 +16,7 @@ export class Loader extends React.Component {
   _toScreen(routeName, params = {}) {
     let toScreen = StackActions.reset({
       index: 0,
+      key: routeName,
       actions: [
         NavigationActions.navigate({
           routeName,
